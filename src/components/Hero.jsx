@@ -7,7 +7,7 @@ function Hero() {
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
-          <div className="pl-16 flex flex-col items-center lg:items-start">
+          <div className=" flex flex-col items-center lg:items-start">
             <h1 className="pb-16 text-6xl font-thin lg:mt-16 lg:text-7xl">
               Bhagya Nimash
             </h1>
