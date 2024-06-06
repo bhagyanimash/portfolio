@@ -12,7 +12,7 @@ function Navbar() {
         <div className="flex flex-shrink-0 items-center">
           <img className="mx-2 w-10 rounded-full" src={logo} alt="logo" />
         </div>
-        <div className="flex gap-4 text-xl">
+        <div className="flex gap-8 text-xl">
           <a href="">
             <h6 className="hidden md:block">Home</h6>
           </a>

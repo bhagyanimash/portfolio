@@ -22,8 +22,8 @@ function Projects() {
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 0.5 }}
                 src={project.image}
-                width={200}
-                height={200}
+                width={300}
+                height={300}
                 alt={project.title}
                 className="mb-6 rounded"
               />

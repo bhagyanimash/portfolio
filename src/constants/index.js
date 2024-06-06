@@ -41,37 +41,38 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "MeterMate App",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "MeterMate, a mobile application designed to revolutionize the way we manage and read electricity meters.",
+    technologies: ["Flutter", "Firebase"],
   },
   {
-    title: "Task Management App",
+    title: "BookStore Website",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    technologies: ["Tailwind CSS", "React", "Node.js", "MongoDB"],
   },
+
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["Tailwind CSS", "React", "Node.js"],
   },
   {
-    title: "Blogging Platform",
+    title: "Food Delivery App",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A food delivery app made with Flutter x Firebase pre-built, functional and ready to go out of the box. This app has email authentication and backend already built in. The user can create an account, browse the menu, add to cart, and input card payment details.",
+    technologies: ["Flutter", "Firebase"],
   },
 ];
 
 export const CONTACT = {
-  address: "No 5, Kandy, Sri Lanka  ",
-  phoneNo: "+94 335 3306 ",
+  address: "No 5/6,Batagalla,Pujapitiya, Kandy, Sri Lanka",
+  phoneNo: "+94 33 53 306 ",
   email: "nimashbhagya@gmail.com",
 };
