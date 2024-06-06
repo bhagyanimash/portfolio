@@ -18,7 +18,7 @@ function Hero() {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin lg:mt-16 lg:text-7xl"
+              className="pb-8 text-6xl font-thin lg:mt-16 lg:text-7xl"
             >
               Hi, <br />
               I'm Bhagya Nimash
@@ -29,7 +29,7 @@ function Hero() {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent"
             >
-              Full Stack App Developer
+              Full Stack Developer
             </motion.span>
             <motion.p
               variants={container(1.5)}
