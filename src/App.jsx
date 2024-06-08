@@ -19,14 +19,14 @@ function App() {
         <div id="hero">
           <Hero />
         </div>
-        <div id="about">
-          <About />
-        </div>
         <div id="technologies">
           <Technologies />
         </div>
         <div id="projects">
           <Projects />
+        </div>
+        <div id="about">
+          <About />
         </div>
         <div id="contact">
           <Contact />

@@ -20,7 +20,9 @@ function Contact() {
           transition={{ duration: 1 }}
           className="my-4"
         >
-          {CONTACT.address}
+          <a href="mailto:nimashbhagya@gmail.com" className="border-b">
+            {CONTACT.email}
+          </a>
         </motion.p>
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
@@ -30,9 +32,7 @@ function Contact() {
         >
           {CONTACT.phoneNo}
         </motion.p>
-        <a href="mailto:nimashbhagya@gmail.com" className="border-b">
-          {CONTACT.email}
-        </a>
+        <p>{CONTACT.address}</p>
       </div>
     </div>
   );

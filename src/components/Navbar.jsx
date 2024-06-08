@@ -16,16 +16,17 @@ function Navbar() {
           <a href="">
             <h6 className="hidden md:block">Home</h6>
           </a>
-          <a href="#about">
-            <h6 className="hidden md:block">About</h6>
-          </a>
           <a href="#technologies">
             <h6 className="hidden md:block">Skills</h6>
           </a>
           <a href="#projects">
             <h6 className="hidden md:block">Projects</h6>
           </a>
+          <a href="#about">
+            <h6 className="hidden md:block">About</h6>
+          </a>
         </div>
+
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
           <a href="https://www.linkedin.com/in/bhagyanimash/">
             <FaLinkedin />
