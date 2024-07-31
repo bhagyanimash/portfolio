@@ -72,7 +72,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "No 5/6,Batagalla,Pujapitiya, Kandy, Sri Lanka",
+  address: "Kandy, Sri Lanka",
   phoneNo: "+94 33 53 306 ",
   email: "nimashbhagya@gmail.com",
 };

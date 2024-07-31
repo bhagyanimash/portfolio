@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/bnfull.png";
+import profilePic from "../assets/design2.png";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -29,7 +29,7 @@ function Hero() {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent"
             >
-              Full Stack Developer
+              Mobile App Developer | Web Developer
             </motion.span>
             <motion.p
               variants={container(1.5)}
