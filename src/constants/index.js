@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = `I am a passionate full-stack developer with a knack for crafting robust and scalable mobile and web applications. I have honed my skills in front-end technologies like React and Next.js and back-end technologies like Node.js, MySQL, Firebase, MongoDB, and Frameworks like Flutter.`;
 
@@ -44,35 +44,35 @@ export const PROJECTS = [
     title: "MeterMate App",
     image: project1,
     description:
-      "MeterMate, a mobile application designed to revolutionize the way we manage and read electricity meters.",
-    technologies: ["Flutter", "Firebase"],
-  },
-  {
-    title: "BookStore Website",
-    image: project2,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["Tailwind CSS", "React", "Node.js", "MongoDB"],
-  },
-
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["Tailwind CSS", "React", "Node.js"],
+      "MeterMate, a mobile application designed to revolutionize the way we manage and read electricity meters. It allows users to capture meter board photos, automatically read meter readings, and calculate monthly electricity bill.",
+    technologies: ["Flutter", "Dart", "Firebase"],
   },
   {
     title: "Food Delivery App",
-    image: project4,
+    image: project2,
     description:
       "A food delivery app made with Flutter x Firebase pre-built, functional and ready to go out of the box. This app has email authentication and backend already built in. The user can create an account, browse the menu, add to cart, and input card payment details.",
-    technologies: ["Flutter", "Firebase"],
+    technologies: ["Flutter", "Dart", "Firebase"],
+  },
+  {
+    title: "BookStore Website",
+    image: project3,
+    description:
+      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    technologies: ["MERN Stack"],
+  },
+
+  {
+    title: "Currency Converter App",
+    image: project4,
+    description:
+      "This application provides real-time currency prices and enables currency conversion.",
+    technologies: ["MERN Stack"],
   },
 ];
 
 export const CONTACT = {
   address: "Kandy, Sri Lanka",
-  phoneNo: "+94 33 53 306 ",
+  phoneNo: "+94 71 335 3306 ",
   email: "nimashbhagya@gmail.com",
 };

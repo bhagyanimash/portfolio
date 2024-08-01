@@ -15,7 +15,7 @@ function About() {
         About <span className="text-neutral-500">Me</span>
       </motion.h1>
       <div className="flex flex-wrap">
-        <motion.div
+        <div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5 }}
@@ -28,17 +28,17 @@ function About() {
               alt="about"
             />
           </div>
-        </motion.div>
-        <motion.div
+        </div>
+        <div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 0.5 }}
           className="w-full lg:w-1/2"
         >
-          <div className="flex justify-center lg:justify-start">
+          <div className="flex justify-center lg:justify-between">
             <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   );

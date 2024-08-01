@@ -6,6 +6,7 @@ import { SiMongodb } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
 import { RiJavascriptFill } from "react-icons/ri";
 import { FaJava } from "react-icons/fa";
+import { SiMysql } from "react-icons/si";
 import { animate, motion } from "framer-motion";
 import { IoNutrition } from "react-icons/io5";
 
@@ -94,6 +95,14 @@ function Technologies() {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <RiJavascriptFill className="text-7xl text-yellow-300" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiMysql className="text-7xl text-blue-300" />
         </motion.div>
       </motion.div>
     </div>
