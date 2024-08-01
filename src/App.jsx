@@ -25,9 +25,9 @@ function App() {
         <div id="projects">
           <Projects />
         </div>
-        <div id="about">
+        {/* <div id="about">
           <About />
-        </div>
+        </div> */}
         <div id="contact">
           <Contact />
         </div>

@@ -46,6 +46,7 @@ export const PROJECTS = [
     description:
       "MeterMate, a mobile application designed to revolutionize the way we manage and read electricity meters. It allows users to capture meter board photos, automatically read meter readings, and calculate monthly electricity bill.",
     technologies: ["Flutter", "Dart", "Firebase"],
+    githublink: "https://github.com/bhagyanimash/MeterMate/tree/dev_bhagya",
   },
   {
     title: "Food Delivery App",
@@ -53,6 +54,7 @@ export const PROJECTS = [
     description:
       "A food delivery app made with Flutter x Firebase pre-built, functional and ready to go out of the box. This app has email authentication and backend already built in. The user can create an account, browse the menu, add to cart, and input card payment details.",
     technologies: ["Flutter", "Dart", "Firebase"],
+    githublink: "https://github.com/bhagyanimash/food_delivery_app",
   },
   {
     title: "BookStore Website",
@@ -60,6 +62,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["MERN Stack"],
+    githublink: "https://github.com/bhagyanimash/bookStore",
   },
 
   {
@@ -68,6 +71,7 @@ export const PROJECTS = [
     description:
       "This application provides real-time currency prices and enables currency conversion.",
     technologies: ["MERN Stack"],
+    githublink: "https://github.com/bhagyanimash/currency_converter",
   },
 ];
 

@@ -10,7 +10,7 @@ function Navbar() {
     <>
       <nav className="mb-5 flex items-center justify-between py-4">
         <div className="flex flex-shrink-0 items-center">
-          <img className="mx-2 w-10 rounded-full" src={logo} alt="logo" />
+          <img className="mx-2 w-8 rounded-full" src={logo} alt="logo" />
         </div>
         <div className="flex gap-8 text-xl">
           <a href="">

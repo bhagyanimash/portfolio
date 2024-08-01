@@ -1,6 +1,7 @@
 import React from "react";
 import { PROJECTS } from "../constants";
 import { animate, motion } from "framer-motion";
+import { FaGithub } from "react-icons/fa";
 
 function Projects() {
   return (
@@ -28,6 +29,7 @@ function Projects() {
                 className="mb-6 rounded-2xl"
               />
             </div>
+
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
@@ -44,6 +46,18 @@ function Projects() {
                   {tech}
                 </span>
               ))}
+              <br></br>
+              <a
+                href={project.githublink} // Assuming each project has a githubLink property
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2 mt-4"
+              >
+                <FaGithub className="text-2xl text-gray-400" />
+                <span className="text-sm font-medium text-gray-400">
+                  View on GitHub
+                </span>
+              </a>
             </motion.div>
           </div>
         ))}
