@@ -22,8 +22,8 @@ function Navbar() {
           <a href="#projects">
             <h6 className="hidden md:block">Projects</h6>
           </a>
-          <a href="#about">
-            <h6 className="hidden md:block">About</h6>
+          <a href="#contact">
+            <h6 className="hidden md:block">Contact</h6>
           </a>
         </div>
 

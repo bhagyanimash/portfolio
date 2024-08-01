@@ -20,8 +20,9 @@ function Hero() {
               animate="visible"
               className="pb-8 text-6xl font-thin lg:mt-16 lg:text-7xl"
             >
-              Hi, <br />
-              I'm Bhagya Nimash
+              <span className="text-5xl">Hi, I'm</span>
+              <br />
+              Bhagya Nimash
             </motion.h1>
             <motion.span
               variants={container(1)}

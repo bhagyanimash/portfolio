@@ -1,6 +1,9 @@
 import React from "react";
 import { CONTACT } from "../constants";
 import { animate, motion } from "framer-motion";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 function Contact() {
   return (
@@ -11,7 +14,7 @@ function Contact() {
         transition={{ duration: 0.5 }}
         className="my-10 text-center text-4xl"
       >
-        Contact
+        Contact <span className="text-neutral-500">Me</span>
       </motion.h1>
       <div className="text-center tracking-tighter">
         <p
@@ -33,6 +36,18 @@ function Contact() {
           {CONTACT.phoneNo}
         </p>
         <p>{CONTACT.address}</p>
+        <div className="m-4 flex items-center justify-center gap-4 text-2xl">
+          <a href="https://www.linkedin.com/in/bhagyanimash/">
+            <FaLinkedin />
+          </a>
+          <a href="https://github.com/bhagyanimash">
+            <FaGithub />
+          </a>
+          <a href="https://web.facebook.com/bhagya.nimash.9/">
+            <FaFacebook />
+          </a>
+        </div>
+        <p className="text-s">All rights reserved by @bhagyanimash</p>
       </div>
     </div>
   );
